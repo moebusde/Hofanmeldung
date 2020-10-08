@@ -39,8 +39,8 @@
     <string name="rundholz_textview_holzlaenge">Holzänge (in m)*</string>
     <string-array name="rundholz_spinner_holzlaenge">
         <item></item>
-        <item>2,6</item>
-        <item>3,6</item>
+        <item>2.6</item>
+        <item>3.6</item>
         <item>4</item>
         <item>5</item>
     </string-array>
