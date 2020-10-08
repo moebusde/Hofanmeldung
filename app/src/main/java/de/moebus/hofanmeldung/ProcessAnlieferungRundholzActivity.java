@@ -83,6 +83,7 @@ public class ProcessAnlieferungRundholzActivity extends AppCompatActivity {
 //                    try {
 //                        if (sqlConnector.arbeitsauftragsnummerMatchesPartienummer(sPartienumber, sWorknumber)) {
                             Rundholz rundholz = new Rundholz(1, sWorknumber, sPartienumber, sCar, sCrane, sWoodType, sWoodLength, sNumberLogs);
+                            // Check if Rundholzassignment is already in database
                             if(IntroActivity.userDatabase.userDAO().getRundholzAssignment() != null) {
                                 IntroActivity.userDatabase.userDAO().updateRundholzAssignment(rundholz.getWorknumber(), rundholz.getPartienumber(), rundholz.getCar(), rundholz.isCrane(), rundholz.getWoodType(), Float.parseFloat(rundholz.getWoodType()), rundholz.getNumberLogs());
                             } else {
