@@ -42,8 +42,8 @@ public class SQLConnector {
 
     private Connection connect() throws ClassNotFoundException, SQLException {
         Class.forName(classes);
-            connection = DriverManager.getConnection(url, username, password);
-            return connection;
+        connection = DriverManager.getConnection(url, username, password);
+        return connection;
     }
 
     public ArrayList<Long> getArbeitsauftragsnummern() throws SQLException, ClassNotFoundException {

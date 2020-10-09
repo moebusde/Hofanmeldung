@@ -15,6 +15,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import java.sql.SQLException;
+
 public class IntroActivity extends AppCompatActivity {
 
     private Button btnStart;
