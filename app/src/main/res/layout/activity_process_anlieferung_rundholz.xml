@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:padding="0dp"
+    tools:context=".ProcessAnlieferungRundholzActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/tvHeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_radio_rundholz"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tVTopText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="@string/rundholz_textview_topText"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvWorknumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:labelFor="@+id/etWorknumber"
+            android:text="@string/rundholz_textview_arbeitsauftragsnummer" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etWorknumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="1"
+                android:importantForAutofill="no"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/btnScanCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/ic_baseline_photo_camera_24" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvPartienumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/etPartienumber"
+            android:text="@string/rundholz_textview_partienummer" />
+
+        <EditText
+            android:id="@+id/etPartienumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName|textCapCharacters" />
+
+        <TextView
+            android:id="@+id/tvCar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/login_textviewer_kennzeichen" />
+
+        <EditText
+            android:id="@+id/etCar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textCapCharacters" />
+
+        <TextView
+            android:id="@+id/tvCrane"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/runholz_textview_lkw" />
+
+        <Spinner
+            android:id="@+id/spCrane"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:entries="@array/rundholz_spinner_lkw" />
+
+        <TextView
+            android:id="@+id/tvWoodType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/runholz_textview_holzart" />
+
+        <Spinner
+            android:id="@+id/spWoodType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:entries="@array/rundholz_spinner_holzart" />
+
+        <TextView
+            android:id="@+id/tvWoodLength"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rundholz_textview_holzlaenge" />
+
+        <Spinner
+            android:id="@+id/spWoodLength"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:entries="@array/rundholz_spinner_holzlaenge" />
+
+        <TextView
+            android:id="@+id/tvNumberLogs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/etNumberLogs"
+            android:text="@string/runholz_textview_stueckzahl" />
+
+        <EditText
+            android:id="@+id/etNumberLogs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="@string/login_button_weiter" />
+
+    </LinearLayout>
+</ScrollView>

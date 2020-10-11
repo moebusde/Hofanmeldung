@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Hofanmeldung</string>
+    <string name="login_textviewer_vorname">Vorname *</string>
+    <string name="login_textviewer_nachname">Nachname *</string>
+    <string name="login_textviewer_geburtstag">Geburtstag * (TT.MM.YYYY)</string>
+    <string name="login_textviewer_mobilnummer">Mobilnummer * (z.B.: 1708433276)</string>
+    <string name="login_textviewer_kennzeichen">KfZ-Kennzeichen * (z.B.: TF-KH 123)</string>
+    <string name="login_button_weiter">Weiter</string>
+    <string name="login_radio_rundholz">Anlieferung Rundholz</string>
+    <string name="login_radio_schnittholz">Abholung Schnittholz (KVH, Projektgeschäft)</string>
+    <string name="login_radio_abholungSaegenebenprodukte">Abholung Sägenebenprodukte</string>
+    <string name="login_radio_dienstleister">Dienstleister</string>
+    <string name="alert_no_id_found">Keine passende ID gefunden</string>
+    <string-array name="login_spinner_mobilnummerVorwahl">
+        <item>+49</item>
+        <item>+48</item>
+        <item>+123</item>
+        <item>+456</item>
+        <item>+789</item>
+    </string-array>
+    <string name="login_textviewer_wilkommen">Herzlich Willkommen bei der mobilen Anmeldung, bitte gib alle nötigen Daten ein klicke dann auf Weiter um zur Prozessauswahl zu kommen.</string>
+    <string name="rundholz_textview_topText">Bitte teile uns nun die Auftragsdaten und die Ausstattung deines LKW mit.</string>
+    <string name="rundholz_textview_arbeitsauftragsnummer" translatable="false">Arbeitsauftragsnummer *</string>
+    <string name="rundholz_textview_partienummer">Partienummer *</string>
+    <string name="runholz_textview_lkw">Hast du einen Kran? *</string>
+    <string-array name="rundholz_spinner_lkw">
+        <item></item>
+        <item>Nein</item>
+        <item>Ja</item>
+    </string-array>
+    <string name="runholz_textview_holzart">Holzart *</string>
+    <string-array name="rundholz_spinner_holzart">
+        <item></item>
+        <item>Kiefer</item>
+        <item>Fichte</item>
+        <item>Lärche</item>
+        <item>Douglasie</item>
+    </string-array>
+    <string name="rundholz_textview_holzlaenge">Holzänge (in m)*</string>
+    <string-array name="rundholz_spinner_holzlaenge">
+        <item></item>
+        <item>2.6</item>
+        <item>3.6</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="runholz_textview_stueckzahl">Anzahl der Stämme *</string>
+    <string name="login_toast_fahrdaten_gespeichert">Daten gespeichert!</string>
+    <string name="intro_button_start">Zur Anmeldung</string>
+    <string name="intro_textview_willkommen">Herzlich Willkomen zur mobilen Hofanmeldung.\nFür eine erfolgreiche Anmeldung benötigen wir noch einige Informationen von dir.\nBitte gib diese in den nächsten Schritten an.\n\nLiebe Grüße,\n dein Team von Klenk Holz in Baruth.</string>
+    <string name="saveDriverData_button_Ja">Ja</string>
+    <string name="saveDriverData_button_Nein">Nein</string>
+    <string name="saveDriverData_textview_saveData">Möchtest du deine Daten in der App speichern, damit du diesen Schritt bei deiner nächsten Anmeldung nicht erneut durchführen musst?</string>
+    <string name="login_textview_persoenliche_daten">Persönliche Daten</string>
+    <string name="login_textview_beschreibung">Bitte gib deine persönlichen Daten ein und tippe dann auf weiter.</string>
+    <string name="processSelection_textview_willkommen">Hallo %s, schön, dass du zu uns kommst. Bitte teile mir den Grund deines Besuchs mit.</string>
+    <string name="interner_fehler">Ups... Es ist ein interner Fehler aufgetreten. Bitte versuche die Anmeldung in einigen Minuten erneut.</string>
+    <string name="auftragsnummer_partienummer_keine_uebereinstimmung">hhh</string>
+    <string name="fehlende_eingaben">Bitte gib alle nötigen Informationen ein.</string>
+    <string name="rundholz_scan_abbruch">Du hast den Scanvorgang abgebrochen.</string>
+    <string name="scan_hinweis">Bitte Barcode auf Auftrag scannen...</string>
+    <string name="scan_barcode_ungueltig">Ein ungültiger Barcode wurde gescannt. Bitte den gültigen Barcode scannen.</string>
+    <string name="intro_clear_user">App zurücksetzen</string>
+    <string name="process_schnittholz_short">Abholung Schnittholz</string>
+    <string name="schnittholz_textview_topText">Bitte teile uns nun die Auftragsdaten und Daten zu deinen LKW mit.</string>
+    <string name="schnittholz_tournummer">Tournummer * (5-stellige Nummer)</string>
+    <string name="button_register">Für die Einfahrt anmelden</string>
+    <string name="summary_textview_topText">Hier ist eine Zusammenfassung deiner Daten, bitte überprüfe diese noch einmal und drücke dann auf den Anmeldebutton.</string>
+    <string name="summary_textview_headline">Zusammenfassung</string>
+    <string name="summary_textview_mobilenumber">Mobilnummer</string>
+    <string name="summary_textview_process">Ausgewählter Prozess</string>
+    <string name="summary_textview_car">Kennzeichen</string>
+    <string name="summary_textview_crane">Kran vorhanden?</string>
+</resources>
